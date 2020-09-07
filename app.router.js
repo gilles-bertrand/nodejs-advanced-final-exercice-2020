@@ -1,8 +1,9 @@
 const express = require('express');
-const { home } = require('./controllers/pages');
+const { home, store } = require('./controllers/pages');
 const router = express.Router();
 
 router.get('/', home);
+router.get('/stores/:slug', store);
 
 
 module.exports = router;
