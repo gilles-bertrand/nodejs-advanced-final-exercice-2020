@@ -1,3 +1,6 @@
+const mongoose = require('mongoose');
+const store = mongoose.model('store');
 exports.home = async (req,res)=>{
-    res.render('home',{title:'Welcome to TRIPTYK shops'})
+    const stores = await store.find({});
+    res.render('home',{title:'Welcome to TRIPTYK shops',stores:stores})
 }

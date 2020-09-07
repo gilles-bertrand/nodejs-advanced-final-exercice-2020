@@ -19,6 +19,11 @@ const initServer = async () => {
     } catch (err) {
         if (err) throw err;
     }
+
+    //Load all models from mongoose
+    require(`${process.cwd()}/models/store`)
+
+
     //Start our app if everything is allright and running
     const app = require(`${process.cwd()}/app`);
     app.set('port', process.env.PORT || 8001);
