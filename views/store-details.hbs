@@ -1,6 +1,6 @@
 <div class="flex content-center flex-wrap w-100%">
     <div class="w-2/3">
-        <h1 class="text-4xl leading-5 font-medium text-blue-400">{{details.name}}</h1>
+        <h1 class="text-4xl leading-5 font-medium text-blue-400">{{details.name}} || {{details.tags}}</h1>
         <div class="grid grid-cols-2 gap-10 pt-6">
             <div>
                 <img src="/uploads/photos/{{details.photo}}">
@@ -14,7 +14,7 @@
                 {{details.location.address}}
             </div>
             <div>
-                Google maps
+                <img src="{{staticmap details.location.coordinates}}" alt="Shop, address on google map">
             </div>
         </div>
     </div>
