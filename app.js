@@ -15,5 +15,7 @@ app.use((req,res,next)=>{
     next();
 })
 
+app.use(express.static(`${process.cwd()}/public`))
+
 app.use(router);
 module.exports = app;
