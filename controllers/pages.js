@@ -13,3 +13,8 @@ exports.store = async (req,res)=>{
         console.log(e)
     }
 }
+
+exports.addStore = async(req,res)=>{
+    res.render('add-store',{title:'add a store'})
+}
+
