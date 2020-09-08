@@ -29,7 +29,6 @@ const schema = new mongoose.Schema({
         }
     }
 });
-
 schema.pre('save', async function(next){
     const slug = require('slugs');
     this.slug = slug(this.name);

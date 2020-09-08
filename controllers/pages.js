@@ -17,4 +17,10 @@ exports.store = async (req,res)=>{
 exports.addStore = async(req,res)=>{
     res.render('add-store',{title:'add a store'})
 }
+exports.register = async(req,res)=>{
+    res.render('register',{title:'Register user form'})
+}
+exports.login = async(req,res)=>{
+    res.render('login',{title:'login user form'})
+}
 

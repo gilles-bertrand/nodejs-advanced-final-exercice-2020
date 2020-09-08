@@ -22,6 +22,7 @@ const initServer = async () => {
 
     //Load all models from mongoose
     require(`${process.cwd()}/models/store`);
+    require(`${process.cwd()}/models/user`);
 
 
     //Start our app if everything is allright and running

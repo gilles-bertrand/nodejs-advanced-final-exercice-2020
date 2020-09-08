@@ -1,9 +1,15 @@
 const express = require('express');
+const mongoose = require('mongoose')
 const hbs = require('express-hbs');
 const bodyParser = require('body-parser');
 const router = require('./app.router');
+const passport = require('passport');
+const User = mongoose.model('user');
+const session = require('express-session');
+const sessionStore = new session.MemoryStore;
 const { registerHelpers } = require('./helpers/staticgmap');
 const app = express();
+
 //View engine setupr for express HBS
 app.engine('hbs',hbs.express4({
     partialsDir :[`${process.cwd()}/views/partials`],
@@ -23,6 +29,19 @@ app.use(express.static(`${process.cwd()}/public`))
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
+
+app.use(session({
+    store:sessionStore,
+    saveUninitialized:true,
+    resave:true,
+    secret:'secret'
+}))
+
+passport.use(User.createStrategy());
+passport.serializeUser(User.serializeUser());
+passport.deserializeUser(User.deserializeUser());
+app.use(passport.initialize())
+app.use(passport.session())
 
 app.use(router);
 module.exports = app;
