@@ -33,7 +33,8 @@ const schema = new mongoose.Schema({
 schema.pre('save', async function(next){
     const slug = require('slugs');
     this.slug = slug(this.name);
-    const storesWithSlug
+    const storesWithSlug = await this.constructor.find({slug:this.slug})
+    if( storesWithSlug.length) this.slug = `${this.slug}-${storesWithSlug.length+1}`
     next();
 })
 module.exports = mongoose.model('store',schema);
