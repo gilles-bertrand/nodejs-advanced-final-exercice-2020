@@ -42,6 +42,10 @@ passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 app.use(passport.initialize())
 app.use(passport.session())
+app.use((req,res,next)=>{
+    res.locals.USER = req.user;
+    next();
+})
 
 app.use(router);
 module.exports = app;

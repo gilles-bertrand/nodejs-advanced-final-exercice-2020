@@ -1,6 +1,7 @@
 const passport = require('passport');
 exports.isLoggedIn = (req,res,next)=>{
     if(req.isAuthenticated()){
+       
         next();
         return;
     }
@@ -9,7 +10,10 @@ exports.isLoggedIn = (req,res,next)=>{
 
 exports.loginUser = passport.authenticate('local',{
     failureRedirect:'/login',
-    successRedirect:'/addshop',
-    failureFlash:true
+    successRedirect:'/addshop'
 })
 
+exports.logout = (req,res)=>{
+    req.logout();
+    res.redirect('/');
+}
