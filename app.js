@@ -7,6 +7,7 @@ const passport = require('passport');
 const User = mongoose.model('user');
 const session = require('express-session');
 const sessionStore = new session.MemoryStore;
+const expressValidator = require('express-validator');
 const { registerHelpers } = require('./helpers/staticgmap');
 const app = express();
 
@@ -29,6 +30,8 @@ app.use(express.static(`${process.cwd()}/public`))
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
+
+// app.use(expressValidator())
 
 app.use(session({
     store:sessionStore,

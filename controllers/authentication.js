@@ -10,7 +10,7 @@ exports.isLoggedIn = (req,res,next)=>{
 
 exports.loginUser = passport.authenticate('local',{
     failureRedirect:'/login',
-    successRedirect:'/addshop'
+    successRedirect:'/'
 })
 
 exports.logout = (req,res)=>{

@@ -5,10 +5,12 @@ const schema = new mongoose.Schema({
         ref:'store'
     },
     text:{
-        type:String
+        type:String,
+        required:'Tou must give a text'
     },
     rating:{
-        type:Number
+        type:Number,
+        required: 'you must give a rating'
     },
     author:{
         type : mongoose.Schema.Types.ObjectId,

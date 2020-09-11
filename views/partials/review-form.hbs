@@ -1,3 +1,9 @@
+{{#if errors}}
+Il y a des erreurs <br />
+{{#each errors}}
+    {{this.msg}} <br/>
+{{/each}}
+{{/if}}
 <form action="/reviews/add/{{details._id}}" method="POST" >
     <div>
         <div>

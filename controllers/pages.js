@@ -11,6 +11,7 @@ exports.store = async (req,res)=>{
     try{
         const details = await store.findOne({slug:req.params.slug}).lean()
         try{
+
             res.render('store-details',{title:'Shops details', details})
         }
         catch(e){
