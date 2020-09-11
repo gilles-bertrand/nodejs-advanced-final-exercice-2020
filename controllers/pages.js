@@ -4,13 +4,14 @@ const store = mongoose.model('store');
 const review = mongoose.model('review');
 exports.home = async (req,res)=>{
     const stores = await store.find({}).lean();
+   
     res.render('home',{title:'Welcome to TRIPTYK shops',stores})
 }
 exports.store = async (req,res)=>{
     try{
         const details = await store.findOne({slug:req.params.slug}).lean()
-        console.log(details)
         try{
+            console.log(details.reviews[0].author.name)
             res.render('store-details',{title:'Shops details', details})
         }
         catch(e){

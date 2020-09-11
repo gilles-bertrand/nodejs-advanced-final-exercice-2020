@@ -1,0 +1,328 @@
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf4b"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c03a958060197ca0b52d50",
+	"text" : "I tried this place last week and it was incredible! Amazing selection of local and imported brews and the food is to die for! ",
+	"rating" : 5,
+	"created" : "2017-03-08T17:09:21.627Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf4c"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c03a958060197ca0b52d50",
+	"text" : "hipsters everywhere",
+	"rating" : 1,
+	"created" : "2017-03-08T17:10:10.426Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf4d"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c065dbbbb1a51e0d43a04f",
+	"text" : "Always a great spot to grab a coffee with a friend. ",
+	"rating" : 5,
+	"created" : "2017-03-08T22:36:48.575Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf4e"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c061518060197ca0b52d5e",
+	"text" : "Great ramen, a little pricey for what you get. ",
+	"rating" : 3,
+	"created" : "2017-03-08T22:37:10.483Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf4f"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c060e98060197ca0b52d5d",
+	"text" : "Tried this place with my wife last week and it was incredible. ",
+	"rating" : 4,
+	"created" : "2017-03-08T22:37:32.829Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf50"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c0609b8060197ca0b52d5c",
+	"text" : "Pretty good soups. ",
+	"rating" : 3,
+	"created" : "2017-03-08T22:37:45.917Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf51"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c060558060197ca0b52d5b",
+	"text" : "If you need a great place with bangin' food that is open late, look no further than work.  ",
+	"rating" : 5,
+	"created" : "2017-03-08T22:38:22.858Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf52"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c05fd08060197ca0b52d5a",
+	"text" : "$12 Banana smoothies. I'd skip this one next time. ",
+	"rating" : 1,
+	"created" : "2017-03-08T22:38:44.128Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf53"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c05f928060197ca0b52d59",
+	"text" : "🐔🐔🐔🐔\r\n\r\n🐔🐔🐔🐔🐔\r\n🐔🐔🐔🐔🐔🐔🐔 \r\n🐔🐔🐔\r\n\r\nbok bok bok",
+	"rating" : 5,
+	"created" : "2017-03-08T22:39:07.295Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf54"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c05c208060197ca0b52d58",
+	"text" : "Great spot for Brunch 👌 ",
+	"rating" : 5,
+	"created" : "2017-03-08T22:39:29.383Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf55"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c05bcd8060197ca0b52d57",
+	"text" : "I only wish I could find them before they were all sold out! ",
+	"rating" : 3,
+	"created" : "2017-03-08T22:39:46.011Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf56"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c05b558060197ca0b52d56",
+	"text" : "Oysters are amazing here as are the cocktails. ",
+	"rating" : 4,
+	"created" : "2017-03-08T22:40:01.343Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf57"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c05aef8060197ca0b52d55",
+	"text" : "A little expensive but the ambiance is great. ",
+	"rating" : 2,
+	"created" : "2017-03-08T22:40:15.413Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf58"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c057838060197ca0b52d54",
+	"text" : "I ate so much 🐟 here. ",
+	"rating" : 5,
+	"created" : "2017-03-08T22:40:35.125Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf59"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c03a428060197ca0b52d4f",
+	"text" : "I'm not a fancy dude but this place is the cat's meow. ",
+	"rating" : 5,
+	"created" : "2017-03-08T22:40:56.312Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf5a"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c039ee8060197ca0b52d4e",
+	"text" : "Try the sour patch kids for dessert. ",
+	"rating" : 4,
+	"created" : "2017-03-08T22:41:18.506Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf5b"),
+	"author" : "58c039018060197ca0b52d4c",
+	"store" : "58c039938060197ca0b52d4d",
+	"text" : "My middle name is charcuterie ",
+	"rating" : 4,
+	"created" : "2017-03-08T22:41:45.980Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf5c"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c065dbbbb1a51e0d43a04f",
+	"text" : "The coffee was too hot!",
+	"rating" : 2,
+	"created" : "2017-03-08T22:46:57.620Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf5d"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c061518060197ca0b52d5e",
+	"text" : "Who pays $15 for Mr Noodles?! ",
+	"rating" : 2,
+	"created" : "2017-03-08T22:47:21.108Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf5e"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c060e98060197ca0b52d5d",
+	"text" : "Mary and I enjoyed the wine here. ",
+	"rating" : 4,
+	"created" : "2017-03-08T22:47:35.931Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf5f"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c0609b8060197ca0b52d5c",
+	"text" : "Soup was too hot!",
+	"rating" : 1,
+	"created" : "2017-03-08T22:48:13.246Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf60"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c060558060197ca0b52d5b",
+	"text" : "HIPSTERS GET OUT OF MY CITY",
+	"rating" : 1,
+	"created" : "2017-03-08T22:48:25.816Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf61"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c05fd08060197ca0b52d5a",
+	"text" : "When I was a kid we ate salad ",
+	"rating" : 3,
+	"created" : "2017-03-08T22:48:42.444Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf62"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c05f928060197ca0b52d59",
+	"text" : "Now this is a place that I can get behind!",
+	"rating" : 5,
+	"created" : "2017-03-08T22:48:56.600Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf63"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c05c208060197ca0b52d58",
+	"text" : "I like things that are consistent ",
+	"rating" : 3,
+	"created" : "2017-03-08T22:49:28.910Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf64"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c05bcd8060197ca0b52d57",
+	"text" : "Tim Hortons has nothin' on this monster",
+	"rating" : 3,
+	"created" : "2017-03-08T22:49:42.879Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf65"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c05b558060197ca0b52d56",
+	"text" : "I ate at this place and I had two black something the next day",
+	"rating" : 1,
+	"created" : "2017-03-08T22:50:09.568Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf66"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c05aef8060197ca0b52d55",
+	"text" : "I prefer Taco Bell",
+	"rating" : 3,
+	"created" : "2017-03-08T22:50:24.775Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf67"),
+	"author" : "58c03ada8060197ca0b52d52",
+	"store" : "58c03a428060197ca0b52d4f",
+	"text" : "Nice waitress here",
+	"rating" : 3,
+	"created" : "2017-03-08T22:50:58.807Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf68"),
+	"author" : "58c08bbed1d97c276fd56ce3",
+	"store" : "58c065dbbbb1a51e0d43a04f",
+	"text" : "Best coffee in town! ",
+	"rating" : 5,
+	"created" : "2017-03-13T14:07:16.529Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf69"),
+	"author" : "58c08bbed1d97c276fd56ce3",
+	"store" : "58c061518060197ca0b52d5e",
+	"text" : "I could eat ramen eggs all day long 🥚🥚🥚🥚🥚",
+	"rating" : 5,
+	"created" : "2017-03-13T14:09:22.108Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf6a"),
+	"author" : "58c08bbed1d97c276fd56ce3",
+	"store" : "58c060e98060197ca0b52d5d",
+	"text" : "🍕🍕🍕🍕 This pizza is the 💣",
+	"rating" : 5,
+	"created" : "2017-03-13T14:09:42.397Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf6b"),
+	"author" : "58c08bbed1d97c276fd56ce3",
+	"store" : "58c0609b8060197ca0b52d5c",
+	"text" : "Meh Soup ",
+	"rating" : 3,
+	"created" : "2017-03-13T14:09:58.884Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf6c"),
+	"author" : "58c08bbed1d97c276fd56ce3",
+	"store" : "58c060558060197ca0b52d5b",
+	"text" : "Nothing better than a PBR after a long day of social media ",
+	"rating" : 3,
+	"created" : "2017-03-13T14:10:27.885Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf6d"),
+	"author" : "58c08bbed1d97c276fd56ce3",
+	"store" : "58c05fd08060197ca0b52d5a",
+	"text" : "👎🏻 Too Expensive ",
+	"rating" : 1,
+	"created" : "2017-03-13T14:11:22.546Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf6e"),
+	"author" : "58c08bbed1d97c276fd56ce3",
+	"store" : "58c05f928060197ca0b52d59",
+	"text" : "🐔 A+ Chicken",
+	"rating" : 5,
+	"created" : "2017-03-13T14:11:54.848Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf6f"),
+	"author" : "58c08bbed1d97c276fd56ce3",
+	"store" : "58c05c208060197ca0b52d58",
+	"text" : "Eggs Benny 🍳",
+	"rating" : 4,
+	"created" : "2017-03-13T14:12:08.255Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf70"),
+	"author" : "58c08bbed1d97c276fd56ce3",
+	"store" : "58c05bcd8060197ca0b52d57",
+	"text" : "The best doughnuts in the world 🍩 ",
+	"rating" : 5,
+	"created" : "2017-03-13T14:12:30.578Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf71"),
+	"author" : "58c08bbed1d97c276fd56ce3",
+	"store" : "58c05b558060197ca0b52d56",
+	"text" : "Fantastic Selection of cocktails ",
+	"rating" : 4,
+	"created" : "2017-03-13T14:12:53.559Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf72"),
+	"author" : "58c08bbed1d97c276fd56ce3",
+	"store" : "58c05aef8060197ca0b52d55",
+	"text" : "I could eat these tacos every day for the rest of my life ",
+	"rating" : 4,
+	"created" : "2017-03-13T14:13:10.681Z"
+},
+{
+	"_id" : ObjectId("5f5b315ea9eed617d0f8cf73"),
+	"author" : "58c08bbed1d97c276fd56ce3",
+	"store" : "58c057838060197ca0b52d54",
+	"text" : "Pretty good but not worth the hype. ",
+	"rating" : 2,
+	"created" : "2017-03-13T14:13:27.242Z"
+},

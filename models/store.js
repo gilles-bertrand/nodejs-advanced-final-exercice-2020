@@ -29,6 +29,9 @@ const schema = new mongoose.Schema({
             type:String
         }
     }
+},{
+    toJSON:{virtuals:true},
+    toObject:{virtuals:true}
 });
 schema.pre('save', async function(next){
     const slug = require('slugs');

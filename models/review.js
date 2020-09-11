@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 const schema = new mongoose.Schema({
-    store:{
-        type:String
+    store : {
+        type : mongoose.Schema.Types.ObjectId,
+        ref:'store'
     },
     text:{
         type:String
@@ -10,8 +11,15 @@ const schema = new mongoose.Schema({
         type:Number
     },
     author:{
-        type:String
+        type : mongoose.Schema.Types.ObjectId,
+        ref:'user'
     }
 })
-
+function autopopulate(next) {
+    this.populate('author');
+    next();
+  }
+  
+  schema.pre('find', autopopulate);
+  schema.pre('findOne', autopopulate);
 module.exports = mongoose.model('review',schema);
