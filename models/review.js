@@ -19,7 +19,6 @@ function autopopulate(next) {
     this.populate('author');
     next();
   }
-  
   schema.pre('find', autopopulate);
   schema.pre('findOne', autopopulate);
 module.exports = mongoose.model('review',schema);

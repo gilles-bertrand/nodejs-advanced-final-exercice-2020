@@ -13,8 +13,9 @@ const initServer = async () => {
     const mongoose = require('mongoose');
     mongoose.Promise = global.Promise;
     try {
-        await mongoose.connect(process.env.DB_HOST, { useNewUrlParser: true, useUnifiedTopology: true })
+        await mongoose.connect(process.env.DB_HOST, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
         console.log('Mongo is now connected to your app')
+        
         // mongoose.set('debug', true);
     } catch (err) {
         if (err) throw err;
