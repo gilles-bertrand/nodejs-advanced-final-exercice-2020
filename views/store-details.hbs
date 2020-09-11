@@ -28,7 +28,7 @@
                     {{#each details.tags}}
                     <span
                         class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-indigo-100 text-gray-800">
-                       {{this}}
+                        {{this}}
                     </span>
                     {{/each}}
                 </p>
@@ -83,9 +83,16 @@
                                     fill="currentColor" viewBox="0 0 32 32">
                                     <path
                                         d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
-                                </svg>
-                                <p class="relative">{{this.text}}</p>
-                                <span>{{this.author.name}}</span>
+                                </svg> 
+                                <p class="relative">{{this.text}}
+                                    
+                                </p>
+                                <span class="inline-flex items-center px-2 py-0.5">{{rating this.rating}}</span>
+                                <span
+                                    class="inline-flex items-center px-2 py-0.5 rounded text-xs font-medium leading-4 bg-indigo-100 text-indigo-800">
+                                    <svg class="mr-1.5 h-2 w-2 text-indigo-400" fill="currentColor" viewBox="0 0 8 8">
+                                        <circle cx="4" cy="4" r="3" />
+                                    </svg>{{this.author.name}}</span>
                             </div>
                         </li>
                         {{/each}}
